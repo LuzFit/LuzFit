@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rutinas en Casa - Daiana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #8ecae6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      display: block;
+      margin: 0 auto 10px;
+      width: 150px;
+    }
+    nav {
+      background-color: #219ebc;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .product, .blog {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #023047;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .btn {
+      background-color: #ffb703;
+      color: #023047;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      max-width: 500px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Luz Fit Logo">
+    <h1>Luz Fit</h1>
+    <p>Entrenamientos para mujeres post parto y adultos mayores</p>
+  </header>
+
+  <nav>
+    <a href="#rutinas">Rutinas</a>
+    <a href="#suscripcion">Suscripción</a>
+    <a href="#blog">Blog</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="rutinas">
+    <h2>Rutinas disponibles</h2>
+    <div class="product">
+      <h3>Post Parto - Nivel Inicial</h3>
+      <p>PDF + Video explicativo - 4 semanas</p>
+      <a href="#" class="btn">Comprar $1000</a>
+    </div>
+    <div class="product">
+      <h3>Adultos Mayores - Movilidad y Fuerza</h3>
+      <p>PDF + Video - 3 semanas</p>
+      <a href="#" class="btn">Comprar $1000</a>
+    </div>
+  </section>
+
+  <section id="suscripcion">
+    <h2>Plan de suscripción</h2>
+    <p>Accedé a todas las rutinas nuevas cada mes y contenido exclusivo.</p>
+    <a href="#" class="btn">Suscribirme $2500/mes</a>
+  </section>
+
+  <section id="blog">
+    <h2>Consejos y Bienestar</h2>
+    <div class="blog">
+      <h3>¿Cómo retomar la actividad física después del parto?</h3>
+      <p>Consejos para volver al movimiento de forma segura y progresiva.</p>
+      <a href="#" class="btn">Leer más</a>
+    </div>
+    <div class="blog">
+      <h3>Ejercicios suaves para mejorar la movilidad en adultos mayores</h3>
+      <p>Rutinas adaptadas y fáciles de seguir para mantener la independencia.</p>
+      <a href="#" class="btn">Leer más</a>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tenés dudas o querés armar un plan personalizado? Escribime o completá el siguiente formulario:</p>
+    <form action="mailto:turismodaidiaz@gmail.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luz Fit. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
